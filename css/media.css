@@ -1,0 +1,306 @@
+@media screen and (max-width: 1815px) {
+    .header__container {
+        max-width: calc(100% - 180px);
+    }
+
+    .left__footer {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 1431px) {
+    .middle__header {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .unique-container {
+        max-width: 1140px;
+        padding: 0 30px;
+    }
+
+    .unique__bottom {
+        grid-template-columns: 500px 450px;
+    }
+
+    .unique__block img {
+        max-width: 400px;
+    }
+
+    .unique__block .sideways, .unique__block .bull {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        padding: 0 16px;
+    }
+
+    .unique__bottom {
+        grid-template-columns: 450px 400px;
+    }
+
+    .unique__block:nth-child(2n) {
+        justify-self: end;
+    }
+
+    .sideways {
+        margin-left: 0;
+    }
+
+    .left__footer {
+        width: auto
+    }
+
+    .nav-block {
+        margin-right: 38px;
+    }
+
+    .nav__head {
+        font-size: 24px;
+    }
+
+    .nav__desc {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .automatic-trading__bottom {
+        grid-template-columns: 300px 300px;
+    }
+
+    .unique__bottom {
+        grid-template-columns: 350px 350px;
+    }
+
+    .default__bottom {
+        grid-template-columns: 300px 300px;
+    }
+
+    .container {
+        max-width: 738px;
+        padding: 0 15px;
+    }
+
+    .top__header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right__top__header {
+        padding-top: 25px;
+    }
+
+    .unique__block .sideways, .unique__block .bull {
+        width: 250px;
+    }
+
+    .unique__block__sub__head {
+        font-size: 21px;
+    }
+
+    .unique__block img {
+        max-width: 350px;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right__footer {
+        margin-bottom: 40px;
+    }
+
+    .right__footer a {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .right__top__header {
+        display: none;
+    }
+
+    .right__top__header nav {
+        flex-direction: column;
+    }
+
+    .right__top__header div {
+        margin-bottom: 15px;
+    }
+
+    .automatic-trading__bottom {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .automatic-trading__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .default__bottom {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .default__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .default__block p {
+        text-align: center;
+    }
+
+    .automatic-trading__block__head, .automatic-trading__block__desc {
+        text-align: center;
+    }
+
+    .unique__bottom {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        grid-row-gap: 40px;
+    }
+
+    .unique__block__2 {
+        grid-row-start: 3;
+    }
+
+    .unique__block:nth-child(2n) {
+        justify-self: center;
+    }
+
+    .unique__block p {
+        text-align: center;
+    }
+
+    .container {
+        max-width: calc(100% - 30px);
+        padding: 0 15px;
+    }
+
+    .quantum__text {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .quantum__desc {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .header__container {
+        width: calc(100% - 140px);
+    }
+
+    .middle__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-block:last-child {
+        margin-right: 0;
+    }
+
+    .nav__head {
+        font-size: 21px;
+    }
+
+    .nav__desc {
+        font-size: 16px;
+    }
+
+    .icon-nav {
+        justify-content: center;
+    }
+
+    .icon-nav .telegram {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: calc(100% - 30px);
+        padding: 0 15px;
+    }
+
+    .quantum__text {
+        font-size: 48px;
+    }
+
+    .quantum__desc {
+        font-size: 18px;
+    }
+
+    .middle__header__button {
+        padding: 15px 0 15px 0;
+        width: 100%;
+    }
+
+    /* .header__container {
+        width: calc(100% - 60px);
+    } */
+
+    .right__top__header div {
+        margin-right: 20px;
+    }
+
+    .nav__head {
+        font-size: 18px;
+    }
+
+    .nav__desc {
+        font-size: 14px;
+    }
+
+    .nav-block {
+        margin-right: 25px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .nav__desc {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .unique__block img {
+        width: 100%;
+    }
+
+    .unique__block .sideways, .unique__block .bull {
+        width: 220px;
+    }
+
+    .left__footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__container {
+        align-items: start;
+    }
+
+    .icon-nav {
+        justify-content: start;
+    }
+
+    .second-logo {
+        width: 100%;
+    }
+}
